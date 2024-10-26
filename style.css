@@ -1,0 +1,83 @@
+/* From Uiverse.io by andrew-demchenk0 */ 
+*{
+    padding: 0;
+    margin: 0;
+}
+/* From Uiverse.io by JaydipPrajapati1910 */ 
+.button {
+    color: white;
+    background-color: #222;
+    font-weight: 500;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    line-height: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    cursor: pointer;
+    text-align: center;
+    margin-right: 0.5rem;
+    display: inline-flex;
+    align-items: center;
+    border: none;
+  }
+  
+  .button:hover {
+    background-color: #333;
+  }
+  
+  .button svg {
+    display: inline;
+    width: 1.3rem;
+    height: 1.3rem;
+    margin-right: 0.75rem;
+    color: white;
+  }
+  
+  .button:focus svg {
+    animation: spin_357 0.5s linear;
+  }
+  
+  @keyframes spin_357 {
+    from {
+      transform: rotate(0deg);
+    }
+  
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+.container {
+    /* padding: 20px; */
+    height: 100vh;
+    /* margin: 10px; */
+    outline: solid 1px black;
+    display: block;
+    align-items: center;
+    /* border-radius: 30px; */
+}
+
+.top{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.heading{
+    color: #121212;
+}
+
+.bottom{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    border-radius: 30px;
+}
